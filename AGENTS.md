@@ -22,7 +22,7 @@
   - Table: `public.artworks` (RLS: 공개 조회·등록만, 삭제는 `admin_delete_artwork` 함수로만)
   - 관리자 비밀번호: `private.admin_secret`에 솔트+SHA-256 해시만 저장. 원문은 로컬 `~/.config/art-share/admin-password.txt`(Git 밖)
 - **GitHub**:
-  - Repository: `youngjijung81-cell/abstraction-experience-share` (private)
+  - Repository: `youngjijung81-cell/abstraction-experience-share` (public)
   - Branch: `main`
 - **Vercel**:
   - Project: `abstraction-experience-share`
